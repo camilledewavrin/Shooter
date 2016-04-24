@@ -1,0 +1,37 @@
+* {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url("../img/small_steps.png");
+}
+
+header, section {
+	background-color: rgba(255, 255, 255, 0.6);
+	color: #696969;
+}
+
+header {
+	border-top: 5px #0BB4B4 solid;
+	border-bottom: 1px #BBB solid;
+	/*border-left: 95px #0BB4B4 solid;*/
+	padding-left: 20px;
+}
+header > h1 {
+	margin: 15px 0;
+	font-weight: 400;
+}
+
+canvas {
+	border:1px #555 dashed;
+	display: none;
+	background-color: #FFF;
+	margin: 40px auto;
+	cursor: crosshair;
+}
